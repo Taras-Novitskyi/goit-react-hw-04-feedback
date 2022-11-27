@@ -11,7 +11,7 @@ export const Button = styled.button`
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: rgb(233, 254, 254);
+  background-color: rgb(243, 254, 254);
 
   border-radius: 8px;
   cursor: pointer;

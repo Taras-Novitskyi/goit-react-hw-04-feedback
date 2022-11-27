@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import { Component } from 'react';
 import { Section } from './Section/Section';
 import { Statistics } from './Statistics/Statistics';
@@ -79,14 +78,3 @@ export class App extends Component {
   }
 }
 
-
-// App.propTypes = {
-//   title: PropTypes.string,
-//   message: PropTypes.string,
-//   options: PropTypes.arrayOf(PropTypes.number),
-//   good: PropTypes.number.isRequired,
-//   neutral: PropTypes.number.isRequired,
-//   bad: PropTypes.number.isRequired,
-//   total: PropTypes.number.isRequired,
-//   positivePercentage: PropTypes.number.isRequired,
-// };
