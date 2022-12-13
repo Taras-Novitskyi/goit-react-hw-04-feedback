@@ -2,19 +2,9 @@ import PropTypes from 'prop-types';
 import { Box } from '../Box/Box';
 import { Item } from './Statistics.styled';
 
-export const Statistics = ({
-  good,
-  neutral,
-  bad,
-  total,
-  positivePercentage,
-}) => {
+export function Statistics({ good, neutral, bad, total, positivePercentage }) {
   return (
-    <Box
-      display="flex"
-		  flexDirection="column"
-		  as = "ul"
-    >
+    <Box display="flex" flexDirection="column" as="ul">
       <Item>Good: {good}</Item>
       <Item>Neutral: {neutral}</Item>
       <Item>Bad: {bad}</Item>
@@ -22,7 +12,7 @@ export const Statistics = ({
       <Item>PositivePercentage: {positivePercentage}%</Item>
     </Box>
   );
-};
+}
 
 Statistics.propTypes = {
   good: PropTypes.number.isRequired,
